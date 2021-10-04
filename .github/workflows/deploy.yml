@@ -1,0 +1,10 @@
+name: deploy_test
+on: workflow_dispatch
+
+jobs:
+  deploy:
+    runs-on: [linux]
+
+    steps:
+    - name: output
+      run: echo 'Example output'
